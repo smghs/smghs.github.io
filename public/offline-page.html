@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" onclick="jump()">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Offline Page</title>
+<style>
+    {
+        padding: 0;
+        margin: 0;
+    }
+    #offline{
+        margin-top: 5rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+ 
+    #reload{
+      background: black;  
+      width: 5rem;
+      margin: 0 auto;
+      color: white;
+      height:1.5rem;
+      line-height: 1.5rem;
+      font-size: 1rem;
+    }
+</style>
+  </head>
+  <body>
+      <div id="offline">
+    <img src="http://xeovii.cafe24.com/img-uploads/offline.png" width="100px">
+    <p>인터넷 연결이 없습니다.</p>
+    <div id="reload" onclick="location.reload()">새로고침</div>
+    </div>
+
+  </body>
+</html>
